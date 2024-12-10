@@ -48,3 +48,27 @@ python app.py
 ---
          # Project documentation  
 
+
+
+---
+
+## 📝 Usage
+
+1. Launch the web app by navigating to `http://127.0.0.1:5000`.  
+2. Upload an image of the exam room for analysis.  
+3. View detection results with bounding boxes highlighting identified activities.  
+
+---
+
+## 📂 Project Structure
+
+```plaintext
+CheatGuard/
+│  
+├── app.py                 # Flask web application  
+├── yolov5_trained_model.pt # Pre-trained YOLOv5 model  
+├── templates/  
+│   ├── index.html         # Home page for uploading images  
+│   └── result.html        # Displays detection results  
+├── requirements.txt       # Python dependencies  
+└── README.md              # Project documentation  
