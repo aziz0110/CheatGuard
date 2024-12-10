@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résultats</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Résultats de la prédiction</h1>
+        <div class="images">
+            <div>
+                <h3>Image originale</h3>
+                <img src="/{{ input_image }}" alt="Image originale">
+            </div>
+            <div>
+                <h3>Image prédite</h3>
+                <img src="/{{ output_image }}" alt="Image prédite">
+            </div>
+        </div>
+        <a href="/" style="display: block; text-align: center; margin-top: 20px; color: #007bff;">Revenir à l'accueil</a>
+    </div>
+</body>
+</html>
